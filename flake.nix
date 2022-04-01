@@ -7,7 +7,7 @@
   };
 
    nixConfig = {
-    substituters = [ "https://vinix.cachix.org" ];
+    substituters = [ "https://vinix.cachix.org" "https://cache.nixos.org/" ];
     trusted-public-keys = [
       "vinix.cachix.org-1:d0T0FsoxO6us47YfoHU0SKizukCUjEIR30DZhDuIBC8="
     ];
